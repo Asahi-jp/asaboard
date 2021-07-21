@@ -10,13 +10,13 @@
                     {% render_field form.username class="form-control mb-3 rounded-pill text-dark-light" placeholder="ユーザー名" %}
                 </div>
             </div>
-            <div class="row">
+            <div class="row mb-2">
                 <div class="col-sm-7 col-md-6 mx-auto">
                     {% render_field form.password class="form-control mb-3 rounded-pill text-dark-light" placeholder="パスワード" %}
                 </div>
             </div>
             <div class="text-center">
-                <button type="submit" class="btn btn-lg text-light shadow border-orange bg-yellow font-weight-bold">ログイン</button>
+                <button type="submit" class="btn btn-lg shadow border-orange bg-darkgrey text-light">ログイン</button>
             </div>
         </div>
         {% csrf_token %}

@@ -4,6 +4,6 @@ main{
 .text-yellow{
     color: rgb(255, 230, 0);
 }
-.bg-yellow{
-    background-color: rgb(255, 230, 0);
+.bg-darkgrey{
+    background-color: #615d5d;
 }
