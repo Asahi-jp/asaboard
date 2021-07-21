@@ -8,7 +8,10 @@ main{
     background-color: #615d5d;
 }
 @media screen and (max-width:768px){
-    table{
+    th{
+        font-size: 12px;
+    }
+    td{
         font-size: 10px;
     }
     .mobile-none{
@@ -19,5 +22,8 @@ main{
     }
     .mobile-h1{
         font-size: 30px;
+    }
+    .mobile-a{
+        font-size: 13px;
     }
 }
