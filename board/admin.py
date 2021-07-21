@@ -1,3 +1,8 @@
 from django.contrib import admin
 
-# Register your models here.
+# Taskモデルをインポート
+from .models import Thread, Comment
+
+# 管理サイトへのモデルを登録
+admin.site.register(Thread)
+admin.site.register(Comment)
