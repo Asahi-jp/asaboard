@@ -7,3 +7,17 @@ main{
 .bg-darkgrey{
     background-color: #615d5d;
 }
+@media screen and (max-width:768px){
+    table{
+        font-size: 10px;
+    }
+    .mobile-a{
+        font-size: 10px;
+    }
+    .mobile-p{
+        font-size: 13px;
+    }
+    .mobile-h1{
+        font-size: 30px;
+    }
+}
