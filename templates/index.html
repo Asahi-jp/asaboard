@@ -11,7 +11,7 @@
                         <thead>
                             <tr>
                                 <th class="mobile-font-size">スレッド一覧</th>
-                                <th>日付</th>
+                                <th class="mobile-none">日付</th>
                                 <th>内容</th>
                                 <th></th>
                             </tr>
@@ -20,7 +20,7 @@
                             {% for thread in threads %}
                             <tr>
                                 <td>{{ thread.title }}</td>
-                                <td>{{ thread.updated|date:'Y/m/d' }}</td>
+                                <td class="mobile-none">{{ thread.updated|date:'Y/m/d' }}</td>
                                 <td>{{ thread.description }}</td>
                                 <td>
                                     <a href="{% url 'board:thread_comment_list' thread.id %}" class="btn btn-primary btn-sm mobile-a">確認する</a>

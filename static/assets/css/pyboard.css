@@ -11,8 +11,8 @@ main{
     table{
         font-size: 10px;
     }
-    .mobile-a{
-        font-size: 10px;
+    .mobile-none{
+        display: none;
     }
     .mobile-p{
         font-size: 13px;
