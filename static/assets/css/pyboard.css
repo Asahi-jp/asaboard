@@ -26,4 +26,7 @@ main{
     .mobile-a{
         font-size: 13px;
     }
+    .mobile-text-center{
+        text-align: center;
+    }
 }
