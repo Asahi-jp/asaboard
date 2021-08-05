@@ -7,6 +7,11 @@ main{
 .bg-darkgrey{
     background-color: #615d5d;
 }
+.footerfix{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 @media screen and (max-width:768px){
     th{
         font-size: 12px;
